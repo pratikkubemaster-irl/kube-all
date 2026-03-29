@@ -1,0 +1,35 @@
+# Kubernetes/kubeconfig files
+kubeconfig
+kubeconfig.*
+.kube/
+*.kubeconfig
+
+# Secrets and sensitive data
+secrets/
+*.secret
+*.password
+.env
+.env.local
+
+# Terraform/IaC
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Local testing artifacts
+test-output/
+temp/
+local-setup/
