@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: hello-world-app
+
+app:
+  name: Hello World Spring Boot App
+  version: 1.0.0
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+# Actuator endpoints for health checks
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+  health:
+    livenessState:
+      enabled: true
+    readinessState:
+      enabled: true
