@@ -47,3 +47,20 @@ cat 01-kubeadm-setup.md
 # Deploy the manifests
 kubectl apply -f manifests/
 ```
+
+## 🧪 Test Application
+
+For hands-on practice with Kubernetes features, use our **Spring Boot Hello World** application:
+
+👉 **[spring-boot-hello-world-cka](https://github.com/pratikkubemaster-irl/spring-boot-hello-world-cka)**
+
+This is a containerized Spring Boot app designed for testing:
+- Container orchestration and deployments
+- Scaling and replica management
+- Service discovery and networking
+- Health checks and pod lifecycle
+- Resource limits and requests
+- ConfigMaps and configuration management
+- Rolling updates and monitoring
+
+Clone and deploy it to your AKS cluster to practice real-world Kubernetes operations.
